@@ -1,4 +1,4 @@
-# 📊 Data Analytics Portfolio – Shreyas Zadove
+# 📊 Data Analytics Portfolio – Shreyas Jadhav
 
 ## 👨‍💻 About Me
 I am an aspiring Data Analyst passionate about using data to generate insights and solve real-world problems using Python, SQL, and Power BI.
