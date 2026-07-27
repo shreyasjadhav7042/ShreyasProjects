@@ -2,7 +2,7 @@
 
 ## 👨‍💻 About Me
 
-I am an aspiring Data Analyst and Machine Learning enthusiast passionate about using data to generate insights and build predictive models using Python, SQL, Power BI, Excel, and Machine Learning. I enjoy transforming raw data into meaningful insights through data cleaning, analysis, visualization, dashboard development, and predictive analytics.
+I am an aspiring Data Analyst and Machine Learning enthusiast passionate about using data to generate insights and build predictive models using Python, SQL, Power BI, Excel, Machine Learning, and Natural Language Processing (NLP). I enjoy transforming raw data into meaningful insights through data cleaning, analysis, visualization, dashboard development, predictive analytics, and deploying machine learning applications.
 
 **GitHub:** https://github.com/shreyasjadhav7042
 
@@ -10,7 +10,7 @@ I am an aspiring Data Analyst and Machine Learning enthusiast passionate about u
 
 # 📁 Projects Overview
 
-This repository contains end-to-end Data Analytics and Machine Learning projects showcasing skills in Python, SQL, Excel, Power BI, Scikit-learn, and Streamlit.
+This repository contains end-to-end Data Analytics, Machine Learning, and NLP projects showcasing skills in Python, SQL, Excel, Power BI, Scikit-learn, Streamlit, and data visualization.
 
 ---
 
@@ -86,7 +86,7 @@ An interactive Power BI dashboard analyzing data job market trends, salaries, an
 
 - Average salary by job role
 - Most in-demand skills in the data field
-- Job role comparison (Data Analyst, Data Scientist, Data Engineer)
+- Job role comparison
 - Salary distribution analysis
 
 ## 📈 Outcome
@@ -101,7 +101,7 @@ Provided clear visualization of data job market trends and skill demand.
 
 ## 📌 Description
 
-An end-to-end data analytics project focused on analyzing freelancer performance, hourly rates, skills, experience, ratings, and client satisfaction. The project follows a complete analytics workflow from raw data collection to dashboard development.
+An end-to-end data analytics project focused on analyzing freelancer performance, hourly rates, skills, experience, ratings, and client satisfaction.
 
 ## 🛠 Tools Used
 
@@ -114,32 +114,31 @@ An end-to-end data analytics project focused on analyzing freelancer performance
 ## 📊 Work Done
 
 - Data cleaning and preprocessing using Python
-- Dataset validation and inspection using Excel
+- Dataset validation using Excel
 - SQL analysis for business insights
-- KPI creation and DAX measures in Power BI
-- Interactive dashboard design and development
+- KPI creation and DAX measures
+- Interactive Power BI dashboard
 - Visualization of freelancer performance metrics
 
 ## 📈 Key Insights
 
 - DevOps freelancers have the highest average hourly rates.
 - Client satisfaction remains high across most skills.
-- Gender-based differences in hourly rates are minimal.
-- More experienced freelancers generally command higher hourly rates.
-- Skill-based analysis reveals differences in freelancer earnings and ratings.
+- Hourly rates increase with experience.
+- Skill-based earnings and ratings comparison.
 
 ## 📂 Project Files
 
-- Raw Dataset (CSV)
+- Raw Dataset
 - Data Cleaning Notebook
 - Cleaned Dataset
-- SQL Analysis Queries
+- SQL Analysis
 - Power BI Dashboard
 - Dashboard Screenshot
 
 ## 📈 Outcome
 
-Developed an interactive dashboard that provides actionable insights into freelancer performance, earnings, experience, and client satisfaction while demonstrating the complete data analytics workflow.
+Developed an interactive dashboard providing actionable insights into freelancer performance and earnings.
 
 ---
 
@@ -149,7 +148,7 @@ Developed an interactive dashboard that provides actionable insights into freela
 
 ## 📌 Description
 
-A Machine Learning web application that predicts whether a patient is likely to have diabetes based on health parameters. Multiple classification algorithms were trained, evaluated, and compared to identify the best-performing model. The final Decision Tree model was deployed using Streamlit to provide an interactive prediction interface.
+A Machine Learning web application that predicts whether a patient is likely to have diabetes based on health parameters. Multiple classification algorithms were trained and compared before deploying the best-performing model using Streamlit.
 
 ## 🛠 Tools Used
 
@@ -174,15 +173,13 @@ A Machine Learning web application that predicts whether a patient is likely to 
 
 ## 📊 Work Done
 
-- Data preprocessing and cleaning
-- Exploratory Data Analysis (EDA)
-- Feature scaling using StandardScaler
-- Model training and evaluation
-- Hyperparameter tuning using GridSearchCV
-- Comparison of multiple machine learning models
-- Performance evaluation using accuracy and cross-validation
-- Streamlit web application development
-- Model serialization using Joblib
+- Data preprocessing
+- Exploratory Data Analysis
+- Feature Scaling
+- Model Training
+- Hyperparameter Tuning
+- Model Evaluation
+- Streamlit Deployment
 
 ## 🏆 Final Model
 
@@ -195,14 +192,81 @@ A Machine Learning web application that predicts whether a patient is likely to 
 - Diabetes Dataset
 - Jupyter Notebook
 - Streamlit Application
-- Trained Model (`decision_tree_model.pkl`)
-- Scaler (`scaler.pkl`)
-- Requirements File
+- Trained Model
+- Scaler
 - README
 
 ## 📈 Outcome
 
-Built a complete end-to-end Machine Learning application capable of predicting diabetes using patient health information and deployed it as an interactive Streamlit web application.
+Built an end-to-end Machine Learning application capable of predicting diabetes using patient health information.
+
+---
+
+# 🎭 6. Emotion Detection using NLP & Machine Learning
+
+📁 **Folder:** `emotions_prediction_model`
+
+## 📌 Description
+
+An end-to-end Natural Language Processing (NLP) project that predicts emotions from text entered by the user. Different feature extraction techniques and machine learning algorithms were implemented, compared, and evaluated to identify the best-performing model. The final model was deployed as an interactive Streamlit web application.
+
+## 🛠 Tools Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- NLTK
+- Streamlit
+- Joblib
+
+## 🤖 Machine Learning Models
+
+- Multinomial Naive Bayes
+- Logistic Regression
+
+## 📚 Feature Extraction
+
+- Bag of Words (BoW)
+- TF-IDF Vectorizer
+
+## 📊 Work Done
+
+- Text preprocessing and cleaning
+- Converted text to lowercase
+- Removed punctuation
+- Removed numbers
+- Removed emojis and special characters
+- Removed extra spaces
+- Label encoding using LabelEncoder
+- Feature extraction using Bag of Words and TF-IDF
+- Trained multiple machine learning models
+- Compared model performance
+- Evaluated models using accuracy
+- Saved trained model and vectorizer using Joblib
+- Built an interactive Streamlit web application
+- Displayed prediction confidence for each emotion
+
+## 🏆 Final Model
+
+- **Algorithm:** Logistic Regression
+- **Feature Extraction:** TF-IDF
+- **Accuracy:** **86.46%**
+
+## 📂 Project Files
+
+- Emotion Dataset
+- Jupyter Notebook
+- Streamlit Application
+- Logistic Regression Model
+- TF-IDF Vectorizer
+- Label Encoder
+- Project Screenshots
+- README
+
+## 📈 Outcome
+
+Developed a complete NLP-based emotion detection application capable of predicting emotions from user text through an interactive Streamlit interface while demonstrating the complete machine learning workflow from preprocessing to deployment.
 
 ---
 
@@ -211,10 +275,15 @@ Built a complete end-to-end Machine Learning application capable of predicting d
 - Data Cleaning & Preprocessing
 - Exploratory Data Analysis (EDA)
 - Machine Learning
+- Natural Language Processing (NLP)
+- Text Preprocessing
 - Feature Engineering
 - Feature Scaling
+- Bag of Words (BoW)
+- TF-IDF Vectorization
+- Text Classification
 - Model Training & Evaluation
-- Hyperparameter Tuning (GridSearchCV)
+- Hyperparameter Tuning
 - Streamlit Web App Development
 - Model Deployment
 - SQL Querying & Data Analysis
@@ -228,13 +297,16 @@ Built a complete end-to-end Machine Learning application capable of predicting d
 
 # 🚀 Objective
 
-To demonstrate practical skills in Data Analytics and Machine Learning by developing end-to-end projects involving data preprocessing, visualization, dashboard development, predictive modeling, and deployment using real-world datasets.
+To demonstrate practical skills in Data Analytics, Machine Learning, and Natural Language Processing by developing end-to-end projects involving data preprocessing, visualization, dashboard development, predictive modeling, and deployment using real-world datasets.
 
 ---
 
 # 👤 Author
 
-**Shreyas Jadhav**  
-Aspiring Data Analyst & Machine Learning Enthusiast
+**Shreyas Jadhav**
 
-**GitHub:** https://github.com/shreyasjadhav7042
+🎓 Aspiring Data Analyst & Machine Learning Enthusiast
+
+🔗 **GitHub:** https://github.com/shreyasjadhav7042
+
+If you found these projects interesting, feel free to ⭐ this repository and connect with me!
